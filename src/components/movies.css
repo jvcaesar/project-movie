@@ -1,0 +1,15 @@
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin: 20px;
+}
+.movie-card h2 {
+    font-size: 14px;
+}
+.movie-card .backdrop-img {
+    width: 100%;
+    aspect-ratio: 300 / 169;
+    border-radius: 5px;
+}

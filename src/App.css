@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+button.active {
+  background: rgb(65, 98, 168);
+  color: white;
+}
