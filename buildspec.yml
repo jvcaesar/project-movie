@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14
+      # nodejs: 14
     commands:
       # install Node 16
       # curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
@@ -27,4 +27,3 @@ phases:
         - "**/*"
       discard-paths: no
       base-directory: dist
-      - echo done building project
