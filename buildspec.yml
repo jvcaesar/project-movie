@@ -27,3 +27,4 @@ phases:
         - "**/*"
       discard-paths: no
       base-directory: dist
+      - echo done building project
